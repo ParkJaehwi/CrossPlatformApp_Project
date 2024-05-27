@@ -51,21 +51,14 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   // App 컴포넌트 스타일
   container: {
-    flex: 1,
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "flex-start",
     width: "100%", // 전체 폭을 설정
   },
-  blank: {
-    flex: 0.1,
-    padding: 20,
-    width: "100%", // 전체 폭을 설정
-  },
   question: {
     // backgroundColor: "green",
     justifyContent: "center",
-    flex: 0.5,
     padding: 20,
     width: "100%", // 전체 폭을 설정
   },
@@ -127,6 +120,14 @@ const styles = StyleSheet.create({
   textSum: {
     color: "#000", // 텍스트 색상 설정
     fontSize: 15, // 텍스트 크기 설정
+  },
+  colorRed: {
+    color: "#FF0000", // 텍스트 색상 설정
+    fontSize: 15,
+  },
+  colorGreen: {
+    color: "#0000FF", // 텍스트 색상 설정
+    fontSize: 15,
   },
 });
 
